@@ -1,0 +1,39 @@
+// COLOR VARIABLES
+$color-red: #ac3b2f;
+$color-orange: #e07533;
+$color-blue: #2e61ae;
+$color-green: #0a8d51;
+
+$color-grey-dark: #333333;
+$color-grey-light: #8f9190;
+
+$color-white: #fff;
+
+// FONT VARIABLES
+$font-primary: 'Noto Sans KR', sans-serif;
+$font-display: 'Inter', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-grey-dark;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: ;
+}
