@@ -1,4 +1,33 @@
 .features {
   background-color: $color-blue;
   grid-column: 3 / -1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__display {
+    position: relative;
+    &--large {
+      font-family: $font-display;
+      font-weight: 700;
+      font-size: 15rem;
+      letter-spacing: -6.5px;
+      line-height: 85%;
+    }
+    &--medium {
+      position: absolute;
+      top: 12rem;
+      left: 4rem;
+      display: inline-block;
+      font-size: 2.4rem;
+      min-width: 100%;
+      text-align: right;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    min-height: 60vh;
+  }
 }
