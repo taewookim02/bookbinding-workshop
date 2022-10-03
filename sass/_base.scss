@@ -36,9 +36,8 @@ body {
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(2, min-content);
-  // grid-template-columns: repeat(12, minmax(min-content, 12rem)); //1440/12 = 120
-  grid-template-columns: repeat(12, 1fr); //1440/12 = 120
+  grid-template-columns: repeat(12, [col-start] 1fr [col-end]); //1440/12 = 120
 
-  gap: 3.2rem;
+  column-gap: 3.2rem;
   padding: 0 3.2rem;
 }

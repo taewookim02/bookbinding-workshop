@@ -1,5 +1,6 @@
 .header {
   background-color: $color-orange;
+  grid-column: 3 / -1;
 
   &__image {
     width: 100%;

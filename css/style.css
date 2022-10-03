@@ -18,12 +18,15 @@ body {
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(2, min-content);
-  grid-template-columns: repeat(12, 1fr);
-  gap: 3.2rem;
+  grid-template-columns: repeat(12, [col-start] 1fr [col-end]);
+  column-gap: 3.2rem;
   padding: 0 3.2rem; }
 
 .sidebar {
-  background-color: #ac3b2f; }
+  background-color: #ac3b2f;
+  grid-column: 1 / span 2;
+  grid-row: 1 / -1;
+  border-right: 1px solid #333; }
 
 .nav__logo {
   width: 100%; }
@@ -31,16 +34,30 @@ body {
 .nav__icons-item {
   height: 1.5rem; }
 
+.nav__list-item {
+  list-style-type: none; }
+  .nav__list-item a {
+    text-decoration: none;
+    color: #8f9190; }
+    .nav__list-item a:hover {
+      text-decoration: underline; }
+  .nav__list-item--active a {
+    color: #333333; }
+
 .header {
-  background-color: #e07533; }
+  background-color: #e07533;
+  grid-column: 3 / -1; }
   .header__image {
     width: 100%; }
 
 .features {
-  background-color: #2e61ae; }
+  background-color: #2e61ae;
+  grid-column: 3 / -1; }
 
 .introduction {
-  background-color: #0a8d51; }
+  background-color: #0a8d51;
+  grid-column: 3 / -1; }
 
 .footer {
-  background-color: #ac3b2f; }
+  background-color: #ac3b2f;
+  grid-column: 3 / -1; }
