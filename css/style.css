@@ -23,7 +23,6 @@ body {
   padding: 0 3.2rem; }
 
 .sidebar {
-  background-color: #ac3b2f;
   grid-column: 1 / span 2;
   grid-row: 1 / -1;
   border-right: 1px solid #333;
@@ -46,18 +45,22 @@ body {
   .nav__list-item {
     list-style-type: none; }
     .nav__list-item a {
+      font-size: 1.6rem;
       text-decoration: none;
       color: #8f9190;
-      padding: 10px 0; }
+      width: 100%;
+      display: inline-block; }
       .nav__list-item a:hover {
         text-decoration: underline; }
     .nav__list-item--active a {
       color: #333333; }
   .nav__icons {
+    display: flex;
+    gap: 2.4rem;
     position: absolute;
     bottom: 15px; }
   .nav__icons-item {
-    height: 1.5rem; }
+    height: 2.4rem; }
 
 .header {
   background-color: #e07533;
