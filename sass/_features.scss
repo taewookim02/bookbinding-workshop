@@ -27,7 +27,23 @@
   &__container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 4rem;
     min-height: 60vh;
+  }
+}
+
+.feature-item {
+  // display: inline-block;
+
+  // TODO: text padding top 8px
+  #text {
+    padding-top: 8px;
+  }
+  &--green {
+    font-size: 1.7rem;
+    color: $color-white;
+    padding: 4px 1.6rem;
+    background-color: #509a87;
   }
 }
