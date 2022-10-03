@@ -3,15 +3,26 @@
   grid-column: 1 / span 2;
   grid-row: 1 / -1;
   border-right: 1px solid #333;
+  position: sticky;
+  top: 0;
+  height: 100vh;
 }
 
 .nav {
+  display: flex;
+  flex-direction: column;
   &__logo {
     width: 100%;
+    padding-top: 5.6rem;
+    padding-bottom: 5.4rem;
+    padding-right: 2.7rem;
   }
 
-  &__icons-item {
-    height: 1.5rem;
+  &__list {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.4rem;
   }
 
   &__list-item {
@@ -19,6 +30,8 @@
     & a {
       text-decoration: none;
       color: $color-grey-light;
+      padding: 10px 0;
+
       &:hover {
         text-decoration: underline;
       }
@@ -26,5 +39,14 @@
     &--active a {
       color: $color-grey-dark;
     }
+  }
+
+  &__icons {
+    position: absolute;
+    bottom: 15px;
+  }
+
+  &__icons-item {
+    height: 1.5rem;
   }
 }
