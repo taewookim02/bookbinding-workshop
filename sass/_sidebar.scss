@@ -1,4 +1,13 @@
-.nav__icons-item {
-  filter: invert(14%) sepia(7%) saturate(6%) hue-rotate(316deg) brightness(92%)
-    contrast(81%);
+.sidebar {
+  background-color: $color-red;
+}
+
+.nav {
+  &__logo {
+    width: 100%;
+  }
+
+  &__icons-item {
+    height: 1.5rem;
+  }
 }

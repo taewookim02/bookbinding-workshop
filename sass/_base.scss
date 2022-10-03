@@ -33,11 +33,12 @@ body {
   line-height: 1.6;
 }
 
-.nav__icons-item {
-  height: 15px;
-  stroke: black;
-}
 .container {
   display: grid;
-  // grid-template-rows: ;
+  grid-template-rows: 80vh min-content 40vw repeat(2, min-content);
+  // grid-template-columns: repeat(12, minmax(min-content, 12rem)); //1440/12 = 120
+  grid-template-columns: repeat(12, 1fr); //1440/12 = 120
+
+  gap: 3.2rem;
+  padding: 0 3.2rem;
 }
