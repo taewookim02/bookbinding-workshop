@@ -76,7 +76,6 @@ body {
     width: 100%; }
 
 .features {
-  background-color: #2e61ae;
   grid-column: 3 / -1;
   display: flex;
   justify-content: space-between;
@@ -107,11 +106,19 @@ body {
 .feature-item #text {
   padding-top: 8px; }
 
-.feature-item--green {
+.feature-item span {
   font-size: 1.7rem;
   color: #fff;
-  padding: 4px 1.6rem;
+  padding: 4px 1.6rem; }
+
+.feature-item--green {
   background-color: #509a87; }
+
+.feature-item--beige {
+  background-color: #958e7b; }
+
+.feature-item--navy {
+  background-color: #034598; }
 
 .introduction {
   background-color: #0a8d51;

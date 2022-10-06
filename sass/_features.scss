@@ -1,5 +1,4 @@
 .features {
-  background-color: $color-blue;
   grid-column: 3 / -1;
   display: flex;
   justify-content: space-between;
@@ -40,10 +39,20 @@
   #text {
     padding-top: 8px;
   }
-  &--green {
+
+  & span {
     font-size: 1.7rem;
     color: $color-white;
     padding: 4px 1.6rem;
+  }
+  &--green {
     background-color: #509a87;
+  }
+  &--beige {
+    background-color: #958e7b;
+  }
+
+  &--navy {
+    background-color: #034598;
   }
 }
