@@ -132,5 +132,5 @@ body {
     max-height: 41.4rem; }
 
 .footer {
-  background-color: #ac3b2f;
+  border-top: 1px solid #333;
   grid-column: 3 / -1; }
