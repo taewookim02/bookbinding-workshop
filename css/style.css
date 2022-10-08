@@ -79,7 +79,8 @@ body {
   grid-column: 3 / -1;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 15rem; }
   .features__display {
     position: relative; }
     .features__display--large {
@@ -124,7 +125,8 @@ body {
   grid-column: 3 / -1;
   display: flex;
   gap: 3.2rem;
-  align-items: center; }
+  align-items: center;
+  padding-bottom: 15.2rem; }
   .introduction__textarea p {
     line-height: 1.5; }
   .introduction img {
@@ -133,4 +135,12 @@ body {
 
 .footer {
   border-top: 1px solid #333;
-  grid-column: 3 / -1; }
+  grid-column: 3 / -1;
+  display: flex;
+  gap: 9.7rem;
+  justify-content: center;
+  padding: 8rem 0; }
+  .footer table {
+    border-spacing: 2rem; }
+  .footer__item td {
+    vertical-align: top; }

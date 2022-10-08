@@ -1,4 +1,19 @@
 .footer {
   border-top: 1px solid #333;
   grid-column: 3 / -1;
+  display: flex;
+  gap: 9.7rem;
+  justify-content: center;
+
+  padding: 8rem 0;
+
+  & table {
+    border-spacing: 2rem;
+  }
+
+  &__item {
+    & td {
+      vertical-align: top;
+    }
+  }
 }
