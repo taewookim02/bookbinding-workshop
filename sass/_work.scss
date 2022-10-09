@@ -1,6 +1,10 @@
 .spring-jebon {
   grid-column: 3 / -1;
 
+  & h2 {
+    margin-top: 6.5rem;
+  }
+
   & img {
     max-width: 56.2rem;
   }
