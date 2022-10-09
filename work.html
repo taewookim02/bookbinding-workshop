@@ -1,15 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>제본공작소 인수인계</title>
 </head>
 
 <body>
-  <h1>HELLO</h1>
+  <div class="container">
+
+    <div class="sidebar">
+      <nav class="nav">
+        <img src="img/logo.png" alt="제본공작소 로고" class="nav__logo">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="/">홈</a></li>
+          <li class="nav__list-item "><a href="/on-and-off.html">출근/퇴근</a></li>
+          <li class="nav__list-item nav__list-item--active"><a href="/work.html">작업</a></li>
+          <li class="nav__list-item"><a href="/printer.html">프린터</a></li>
+        </ul>
+
+        <div class="nav__icons">
+          <a href="https://github.com/taewookim02" target="_blank">
+            <img src="img/svg/logo-github.svg" alt="Github logo" class="nav__icons-item">
+          </a>
+          <a href="https://www.linkedin.com/in/taewookim02/" target="_blank">
+            <img src="img/svg/logo-linkedin.svg" alt="LinkedIn logo" class="nav__icons-item">
+          </a>
+          <a href="https://www.instagram.com/taet_su/" target="_blank">
+            <img src="img/svg/logo-instagram.svg" alt="Instagram logo" class="nav__icons-item">
+          </a>
+          <a href="https://www.figma.com/file/thEDoUiaJ4Q3Akgs0SOwJO/Bookbinding-Workshop?node-id=0%3A1"
+            target="_blank">
+            <img src="img/svg/logo-figma.svg" alt="Figma logo" class="nav__icons-item">
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="spring-jebon">
+      <h2>스프링 제본</h2>
+      <div class="spring-jebon__container">
+        <img src="img/removed-bg/probindWE-2500-removebg-preview.png" alt="Picture of Probind" class="probind">
+        <div class="spring-jebon__textarea">
+          <h3>3:1</h3>
+          <ul>
+            <li>책 두께 가늠 후 적정 와이어 선택 (3:1 적혀있는 박스에서)</li>
+            <li>종이 두께<br>(너무 두껍게 종이를 뚫었을 때 기계 고장 났었음)</li>
+            <li>수평 맞추기<br>(원본 제본 시 삐뚤어지게 구멍 뚫으면 복구 불가)</li>
+            <li>기준점 확인<br>(기준점이 비규격 제본 시 움직이므로 확인 안하면 엉뚱한 곳에 구멍이 뚫림)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="spring-jebon__container">
+        <img src="img/removed-bg/ws-n10-removebg-preview.png" alt="Picture of WS-N10" class="ws-n10">
+        <div class="spring-jebon__textarea">
+          <h3>2:1</h3>
+          <ul>
+            <li>책 두께 가늠 후 적정 와이어 선택 (2:1 적혀있는 박스에서)</li>
+            <li>종이 두께<br>(3:1 보다 두껍게 가능)</li>
+            <li>수평 맞추기<br>(원본 제본 시 삐뚤어지게 구멍 뚫으면 복구 불가)</li>
+            <li>규격 확인<br>(비규격일 시 2:1은 될 수도, 안 될수도 있음)</li>
+            <li>제일 밑 장 덧대기<br>(제일 밑 장 안뚫려서 덧대야 다 뚫림)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="spring-jebon__container">
+        <img src="img/removed-bg/finish_coil-e1-removebg-preview.png" alt="Picture of Finish-coil" class="finish-coil">
+        <div class="spring-jebon__textarea">
+          <h3>스프링 결합/해제</h3>
+          <ul>
+            <li>책 두께 가늠 후 적정 넓이 설정</li>
+            <li>규격 설정 (2:1 || 3:1)</li>
+            <li>스프링 커팅 마감 시 칼날 부분 주의</li>
+          </ul>
+        </div>
+      </div>
+      <div class="spring-jebon__container">
+        <img src="img/removed-bg/procutCE-4660 1.png" alt="Picture of Procut" class="procut">
+        <div class="spring-jebon__textarea">
+          <h3>책제단</h3>
+          <ul>
+            <li>맨 밑장 덧대기<br>(안 덧댈 시 밑장 안잘림)</li>
+            <li>맨 윗장 책 커버 사용<br>(사용 안 할 시 기름 때 묻음)</li>
+            <li>원본 제본 시 두께 주의<br>(책 두꺼우면 잘릴 때 아치형으로 잘림)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="museon-jebon">
+
+    </div>
+
+
+    <footer class="footer">
+      <div class="footer__item">
+        <h3>세종 나성점 1호</h3>
+        <table>
+          <tr>
+            <td>연락</td>
+            <td>print@jebonso.co.kr<br>044-216-6223</td>
+          </tr>
+          <tr>
+            <td>주소</td>
+            <td>세종특별자치시 한누리대로 245<br>(나성동 747) SR파크원 202호</td>
+          </tr>
+          <tr>
+            <td>영업시간</td>
+            <td>평일: 9AM - 11PM<br>토: 9AM - 8PM<br>일: 9AM - 6PM</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer__item">
+        <h3>세종 시청점 2호</h3>
+        <table>
+          <tr>
+            <td>연락</td>
+            <td>prt@jebonso.co.kr<br>044-865-6223</td>
+          </tr>
+          <tr>
+            <td>주소</td>
+            <td>세종특별자치시 한누리대로 2149<br>(보람동 700-71) 엔젤타워 201호</td>
+          </tr>
+          <tr>
+            <td>영업시간</td>
+            <td>평일: 9AM - 11PM<br>토: 9AM - 8PM<br>일: 9AM - 6PM</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer__item">
+        <h3>세종 본점 3호</h3>
+        <table>
+          <tr>
+            <td>연락</td>
+            <td>pt@jebonso.co.kr<br>044-867-6223</td>
+          </tr>
+          <tr>
+            <td>주소</td>
+            <td>세종특별자치시 세종로 1219<br>(고운동 2094) 세종중앙타워 201호</td>
+          </tr>
+          <tr>
+            <td>영업시간</td>
+            <td>평일: 9AM - 11PM<br>토: 9AM - 8PM<br>일: 9AM - 6PM</td>
+          </tr>
+        </table>
+      </div>
+    </footer>
+  </div>
+
 </body>
 
 </html>

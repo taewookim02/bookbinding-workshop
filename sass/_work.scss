@@ -1,0 +1,29 @@
+.spring-jebon {
+  grid-column: 3 / -1;
+
+  & img {
+    max-width: 56.2rem;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+}
+
+.probind {
+  transform: rotate(-0.91deg);
+}
+
+.procut {
+  padding: 0 8rem;
+}
+
+.finish-coil {
+  transform: rotate(2.9deg);
+}
+
+.ws-n10 {
+  transform: rotate(1.17deg);
+}
