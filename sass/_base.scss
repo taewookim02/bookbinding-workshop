@@ -43,7 +43,7 @@ ul {
 
 .container {
   display: grid;
-  grid-template-rows: min-content min-content 40vw repeat(2, min-content);
+  grid-template-rows: min-content min-content repeat(2, min-content);
   grid-template-columns: repeat(12, [col-start] 1fr [col-end]); //1440/12 = 120
 
   column-gap: 3.2rem;
