@@ -34,6 +34,13 @@ body {
   line-height: 1.6;
 }
 
+ul {
+  margin-left: 1.5rem;
+  & ul {
+    margin-left: 2rem;
+  }
+}
+
 .container {
   display: grid;
   grid-template-rows: min-content min-content 40vw repeat(2, min-content);
