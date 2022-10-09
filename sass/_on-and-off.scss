@@ -1,12 +1,26 @@
 .on {
   grid-column: 3 / -1;
+
+  margin-bottom: 10rem;
+  & h2 {
+    padding: 5.6rem 0 2.9rem 0;
+  }
 }
 
 .off {
   grid-column: 3 / -1;
 
+  & h2 {
+    margin-bottom: 4.1rem;
+  }
+
+  & h3 {
+    padding-left: 2rem;
+  }
+
   & ul {
     clear: both;
+    margin-bottom: 7rem;
   }
 
   & li {
@@ -28,6 +42,7 @@
     height: 18.7rem;
     width: 20.2rem;
     justify-content: center;
+    text-align: center;
     align-items: center;
     cursor: pointer;
     border: 1px solid #333;

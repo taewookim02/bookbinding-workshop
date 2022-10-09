@@ -151,12 +151,20 @@ ul {
     vertical-align: top; }
 
 .on {
-  grid-column: 3 / -1; }
+  grid-column: 3 / -1;
+  margin-bottom: 10rem; }
+  .on h2 {
+    padding: 5.6rem 0 2.9rem 0; }
 
 .off {
   grid-column: 3 / -1; }
+  .off h2 {
+    margin-bottom: 4.1rem; }
+  .off h3 {
+    padding-left: 2rem; }
   .off ul {
-    clear: both; }
+    clear: both;
+    margin-bottom: 7rem; }
   .off li {
     list-style-type: none;
     list-style-position: outside;
@@ -171,6 +179,7 @@ ul {
     height: 18.7rem;
     width: 20.2rem;
     justify-content: center;
+    text-align: center;
     align-items: center;
     cursor: pointer;
     border: 1px solid #333;
